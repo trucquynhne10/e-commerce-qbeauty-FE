@@ -27,7 +27,7 @@ const render = () => {
             (e) => `
             <div class="grid__column-2-4">
                 <a class="home-product-item" href="#">
-                    <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/2ce91a9404973b52dda077f16227cf02_tn);"></div>
+                    <div class="home-product-item__img" style="background-image: url(${e[9]});"></div>
                     <h4 class="home-product-item__name"><p>${e[0]}</p></h4>
                     <div class="home-product-item__price">
                         <span class="home-product-item__price-old">${e[1]}</span>
